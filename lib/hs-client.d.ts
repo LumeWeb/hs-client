@@ -13,7 +13,7 @@ export class NodeClient extends Client {
 
     estimateFee(...args: any[]): void;
 
-    execute(...args: any[]): void;
+    execute(...args: any[]): Promise<object>;
 
     getBlock(...args: any[]): void;
 
