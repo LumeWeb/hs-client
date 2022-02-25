@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "bcfg": "~0.1.7",
-    "@lumeweb/bcurl": "../bcurl",
+    "@lumeweb/bcurl": "https://github.com/LumeWeb/bcurl.git",
     "bsert": "~0.0.10"
   },
   "devDependencies": {
